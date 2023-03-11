@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>links personalizados</title>
+    <style>
+        body{
+            font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+            background-color: rgb(204, 204, 248);
+        }
+        a{
+            text-decoration: none;
+        }
+        h1{
+            color: grey;
+            background-color: beige;
+        }
+        a:hover{
+            color: rgb(236, 109, 136);
+            text-decoration: line-through;
+        }
+        a:visited{
+            color:brown
+        }
+        .especial::after{
+            content:  "[link]";
+            color: rgb(157, 161, 161);
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Links personalizados</h1>
+    <ul>
+        <li><a href="www.youtube.com">Link personalizado</a>
+        </li>
+        <li>
+            <a href="www.youtube.com">link personalizado2
+            </a>
+        </li>
+        <li><a href="https://www.youtube.com/watch?v=vMlrcOVr7po&list=PLHz_AreHm4dlUpEXkY1AyVLQGcpSgVF8s&index=22" target="_blank" class="especial">link personalizado3</a>
+        </li>
+    </ul>
+</body>
+</html>

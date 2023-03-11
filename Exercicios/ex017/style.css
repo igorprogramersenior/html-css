@@ -1,0 +1,28 @@
+#principal{
+    color: rgb(30, 133, 38);
+}
+body{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(173, 245, 245);
+}
+.basico{
+color: rgb(13, 170, 52);
+}
+.intermediario{
+color: rgb(88, 88, 6);
+}
+.avançado{
+color: brown;
+}
+h1{
+    text-align: center;
+    background-color: rgb(66, 245, 66);
+}
+h2{
+    text-align: justify;
+}
+p{
+    text-indent: 30px;
+    font: weight 200px;;
+}
