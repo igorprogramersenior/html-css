@@ -7,7 +7,8 @@
     --fonte2: 'Passion One', cursive;
     --fonte3: 'Sriracha', cursive;
 }
-main{
+html,body{  
+    min-height: 100vh;
     
 }
 header>p{
