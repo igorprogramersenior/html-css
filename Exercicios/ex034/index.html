@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio redes sociais</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        #container{
+            background-image: url(imagens/fundo-madeira.jpg);
+            background-size: cover;
+            position: relative;
+            height: 97vh;
+            padding: 10px;
+        }
+        #conteudo{
+            background-image: url(imagens/frame-iphone.png);
+            background-size: 100% 100%;
+            position: absolute;
+            height: 500px;
+            width: 248px;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%);
+        }
+        #h{
+            background-size: 100% 100%;
+            background-image: url(imagens/logo-home.jpg);
+            position: absolute;
+            left: 88%;
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+        }
+        #y{
+            background-size: 100% 100%;
+            background-image: url(imagens/logo-youtube.jpg);
+            position: absolute;
+            left: 88%;
+            top: 35%;
+            border-radius: 50%;
+            width: 100px;
+            height: 100px; 
+        }
+        iframe#i{
+            background-size: 100% 100%;
+            position: absolute;
+            height: 380px;
+            width: 214px;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%);
+        }
+        #f{
+            background-size: 100% 100%;
+            background-image: url(imagens/logo-facebook.jpg);
+            position: absolute;
+            left: 88%;
+            top: 18%;
+            border-radius: 50%;
+            width: 100px;
+            height: 100px; 
+        }
+        a:hover{
+            font-size: 150px;
+        }
+        #frame-spec{
+            overflow-y: hidden;
+        }
+    </style>
+</head>
+<body>
+    <section id = container>
+        <article id=conteudo></article>
+        <iframe name=frame frameborder="0" id=i
+        scrolling="auto"
+        >></iframe>
+       <a href="iframe1.html" target=frame id="h"></a>
+        <a href=iframe2.html id=f target="frame"></a>
+        <a href="iframe3.html" target="frame" id="y"></a>
+    </section>
+</body>
+</html>

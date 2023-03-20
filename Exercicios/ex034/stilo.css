@@ -1,0 +1,17 @@
+
+ *{
+    margin: 0%;
+    padding:0%;
+}
+img{
+    width: 197px;
+}
+a{
+    background-color: red;
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    text-align: end;
+    margin: auto;
+    padding-top:2% ;
+}
