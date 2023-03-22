@@ -13,14 +13,20 @@
 </head>
 <body>
     <h1>Meu primeiro formulario</h1>
-    <form>
+    <form action="cadastro.php" method="get" autocomplete="on">
         <p>
             <label for="iusu">Nome:</label>
-            <input type="text" name="usu" id="iusu">
+            <input type="text" name="usu" id="iusu" out autocomplete="nickname" size="18">
         </p>
         <p>
-            <label for="isen">Senha: </label>
-            <input type="password" id="isen" name="sen">
+            <label for="imedia">Media
+            </label>
+            <input type="number" id="imedia" name="media" step="0.1"
+            min="0" max="10" value="5">
+        </p>
+        <p>
+            Data:
+            <input type=date>
         </p>
         <input type="submit" value="Enviar">
         <input type=reset value="Apagar">
